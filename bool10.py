@@ -6,5 +6,5 @@ def main(a):
     Returns:
         bool
     """
-    # Write your code here
-    return 
+    return (a**2 and a<10 ) 
+print(main(9))

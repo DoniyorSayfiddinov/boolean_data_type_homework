@@ -6,6 +6,5 @@ def main(a):
     Returns:
         bool
     """
-    # Write your code here
-    return bool(a==3)
-print(main(3))
+    return (a%2==0 and a>0)
+print(main(-1))
